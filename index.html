@@ -149,8 +149,62 @@
 
         <ul>
 
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>pwd - displays the current working directory.</li>
+          <li>ls - displays the list of files and folders in the current directory.</li>
+          <li>cd - navigates between directories in the path.</li>
+          <li>cd .. - navigates backwards one level at a time, through the path of your directories.</li>
+          <li>mkdir - creates a new directory.</li>
+          <li>touch - creates a file inside a directory.</li>
+          <li>start - opens a file.</li>
+          <li>git add -A - commits all files in the working branch.
+          <li>git commit -m - commits staged files to the repository and links a message to it.</li>
+          <li>git pull origin [base branch name] - pulls in the base branch.</li>
+          <li>git push origin [new branch name] - pushes all of the changes from the new branch up.</li>
+          <li>code . - git bash command to open VS Code.</li>
+          <li>Repo - a folder for your project, contains all of the files and version histories.</li>
+          <li>Branch - a workspace where you can make changes that don't affect the live site.</li>
+          <li>Markdown (.md) - the way content files are formatted in github, (uses text that easily converts to HTML).</li>
+          <li>Commit changes - adds changes to your branch (adding, editing, or deleting a file) saves a new version of the file
+          <li>you're working on.</li>
+          <li>Pull request (“PR”) - asks to merge changes from one branch into another.</li>
+          <li>Merge - “pulls in” changes after a PR is approved (changes apply to the live site).</li>
+          <li>Issue - used to report new tasks/content fixes, tracked on the project board.</li>
+          <li>Federalist - a platform that securely deploys a website from a github repository (lets users preview proposed
+            changes).</li>
+
+
+          <br />
+
+
+          <li>Creating a github repository:</li>
+          <ol>
+            <li>Click the + icon in the top right corner of github.com and then the new repository.</li>
+            <li>Name the repository and write a description.</li>
+            <li>Add a README file.</li>
+            <li>Select the .gitignore template: Node.</li>
+            <li>Select the MIT License.</li>
+            <li>Click create repository.</li>
+            <li>Click the ‘<> Code’ dropdown menu.</li>
+            <li>Select the SSH tab and copy the url.</li>
+            <li>Navigate to the desired file location in git bash.</li>
+            <li>Type ‘git clone [copied SSH link].</li>
+          </ol>
+
+
+          <br />
+
+
+          <li>Each commit should contain an isolated complete change.</li>
+          <li>Committing and pushing changes backs up your work to remote storage.</li>
+          <li>Make a separate branch for each set of unrelated changes.</li>
+          <li>Link addressed issues with each pull request to make it easier for reviewers.</li>
+          <li>As a reviewer you should leave questions, comments, and suggestions (you can comment on the whole pr or
+            individual lines).</li>
+          <li>Delete your branch after it has been merged (doesn’t delete pull request and commit history).</li>
+          <li>Feature branch - copy of the main branch, where the new code is added.</li>
+          <li>Default branch is called either ‘main’ or ‘master’ (dont code directly in the main branch).</li>
+          <li>Be sure to commit often.</li>
+          <li>Base branch - where the feature branch’s changes will be applied (can be the main branch).</li>
 
         </ul>
 
